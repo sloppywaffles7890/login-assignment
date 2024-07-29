@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 80%;
+    width: 30%;
+    border: 1px solid grey; /*solid or dotted*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*makes it run from top to bottom*/
+
+    /* background-color: red; */
+}
+
+.container input{
+    height: 7%;
+    width: 70%;
+    margin: 10px;
+    /* border-radius: 10px; */
+}
+
+.container button{
+    height: 7%;
+    width: 70%;
+    background-color: rgb(5, 66, 197);
+    color: white; /*for text*/
+    border-radius: 10px;
+    font-weight: 600; /*bolds text*/
+    border: none; /*removes the border*/
+}
+
+.container p{
+    color: darkblue;
+}
+
+.container h5{
+    color: darkblue;
+}
